@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>晴天小狗｜帳號與狗狗管理</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>晴天小狗｜帳號 & 狗狗管理（離線可用）</h1>
+  </header>
+
+  <div class="container">
+    <!-- 左側：帳號 -->
+    <section class="card">
+      <header><h2 class="card-title">帳號</h2></header>
+      <div class="card-body stack">
+        <div class="row">
+          <div class="flex1">
+            <label for="newAccId">新增帳號（兩位數字，如 01）</label>
+            <input id="newAccId" type="text" placeholder="例如 01、02、03" maxlength="4" />
+          </div>
+          <button class="primary" id="btnAddAcc">新增帳號</button>
